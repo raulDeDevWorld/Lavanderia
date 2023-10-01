@@ -70,7 +70,7 @@ function Home() {
    
             <div className="relative h-full overflow-x-auto shadow-2xl p-5 bg-white min-h-[80vh]">
                 {modal === 'Delete' && <Modal click={deletConfirm} funcion={() => delet(i)}>Estas seguro de eliminar al siguiente usuario {msg}</Modal>}
-                <h3 className='font-medium text-[16px]'>Sucursales</h3>
+                <h3 className='font-medium text-[16px]'>Clientes</h3>
                 <br />
                 <div className='flex justify-center w-full'>
                     <input type="text" className='border-b border-gray-300 gap-4 text-center focus:outline-none  w-[300px]' onChange={onChangeHandler} placeholder='Filtrar por nombre' />
@@ -132,11 +132,11 @@ function Home() {
                         }
                     </tbody>
                 </table>
-
+{/* 
                 <div className='lg:flex hidden lg:fixed top-[100px] right-[65px] '>
                     <div className='flex justify-center items-center h-[50px] text-white text-[14px] font-bold bg-[#00E2FF] border border-gray-200 rounded-[10px] px-10 cursor-pointer mr-2' onClick={redirect}>Agregar Sucursal</div>
                     <div className='flex justify-center items-center bg-[#00095F] h-[50px] w-[50px]  rounded-full text-white cursor-pointer' onClick={redirect}> <span className='text-white text-[30px]'>+</span> </div>
-                </div>
+                </div> */}
             </div>
         </div>
 
