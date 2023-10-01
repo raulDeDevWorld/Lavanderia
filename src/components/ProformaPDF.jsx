@@ -119,7 +119,7 @@ const PDFView = ({ dbUrl, style }) => {
                             return <View style={{ display: 'flex', width: '100%', flexDirection: 'row', }}>
 
                                 <Text style={{ width: '100%', fontSize: '12px',  border: '1px solid black', padding: '5px 2px'  }}>
-                                    {i['nombre de producto 1']}
+                                    {i['nombre 1']}
                                     {/* {i.costo} Bs. */}
                                 </Text>
                                 <Text style={{ width: '100%', fontSize: '12px',  border: '1px solid black', padding: '5px 2px'  }}>
